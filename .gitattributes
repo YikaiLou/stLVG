@@ -1,4 +1,0 @@
-# ignore the special file 
-**.ipynb linguist-vendored
-**.R linguist-vendored
-**.Rprofile linguist-vendored
