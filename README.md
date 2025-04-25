@@ -6,7 +6,11 @@ We recommend setting up a conda environment and then cloning this repository.
 ### Step 1
 Create a environment named stLVG with python
 ```
-conda create -n stLVG python=3.8.19 pip
+conda create -n stLVG python=3.8.19 pip conda-forge jupyter
 conda activate stLVG
 ```
 ### Step 2
+```
+git clone https://github.com/YikaiLou/stLVG.git
+cd stLVG
+```
