@@ -20,6 +20,6 @@ conda env create -f environment.yml
 conda activate stLVG
 ```
 ### Step 4
-```
+```bash
 pip install torch-scatter torch-sparse torch-geometric -f https://data.pyg.org/whl/torch-2.2.1+cpu.html # Change according to your computer model
 ```
