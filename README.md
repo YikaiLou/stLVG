@@ -1,5 +1,5 @@
 # stLVG: Spatio-Temporal Lightweight Vector-guided Graph Network
-[figure1_919.tif](https://github.com/user-attachments/files/22888393/figure1_919.tif)
+![Figure1](images/figure1_919.png)
 This repository contains the basic code and examples for stLVG, a novel vector-driven graph neural network for spatial multi-slice multi-omics integration.
 ## Installation
 We recommend setting up a conda environment and then cloning this repository.
