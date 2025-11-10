@@ -11,8 +11,10 @@ setup(
 
         "torch==2.2.1",
         "torch-geometric==2.5.2",
+        "torch-cluster",
 
         "scanpy==1.9.8",
+        "scikit-misc>=0.2.0",
         "anndata",
 
         "matplotlib",

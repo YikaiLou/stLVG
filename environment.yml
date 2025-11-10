@@ -6,33 +6,38 @@ channels:
   - defaults
 
 dependencies:
-  - python=3.8.19
+  - python=3.8
+
+  #  Only for MacOS
+  - pkg-config  
+  - openblas    
+  - cmake       
 
   - pytorch=2.2.1
   - torchvision
   - torchaudio
-  
+  - scanpy=1.9.8
   - numpy
   - pandas
   - scipy
-  - scikit-learn
-  - scanpy=1.9.8
-  
   - matplotlib
-  - jupyter
-  - ipykernel
+  - scikit-learn
   - tqdm
-  
+  - ipykernel
+  - jupyter
+
   - pip
   - pip:
       - torch-scatter -f https://data.pyg.org/whl/torch-2.2.0.html
       - torch-sparse -f https://data.pyg.org/whl/torch-2.2.0.html
+      - torch-cluster -f https://data.pyg.org/whl/torch-2.2.0.html
       - torch-geometric==2.5.2
       
       - plotly==5.20.0
       - opencv-python==4.9.0.80
       - faiss-cpu==1.8.0
       - pynvml==11.5.0
+      - scikit-misc==0.2.0
       - anndata
       
       - -e .
